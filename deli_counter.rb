@@ -23,7 +23,7 @@ end
 
 def take_a_number(katz_deli, end_of_line)
 katz_deli.push(end_of_line)
-puts "Welcome, #{end_of_line}. You are number #{ katz_deli[-1]} in line."
+puts "Welcome, #{end_of_line}. You are number #{katz_deli[-1]} in line."
 end
 
 #Build the now_serving method which should call out (i.e. puts)
