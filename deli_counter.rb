@@ -22,15 +22,8 @@ end
 #("zero") like computers.
 
 def take_a_number(katz_deli, end_of_line)
-if katz_deli.empty?
-then katz_deli.push(end_of_line)
-puts "Welcome, #{end_of_line}. You are number 1 in line."
-elsif katz_deli.count >=1
-  then katz_deli << end_of_line
-  katz_deli.each_with_index(1) do |name, index|
-puts "Welcome, #{name}. You are number #{index} in line."
-end
-end
+katz_deli.push(end_of_line)
+puts "Welcome, #{end_of_line}. You are number  in line."
 end
 
 #Build the now_serving method which should call out (i.e. puts)
