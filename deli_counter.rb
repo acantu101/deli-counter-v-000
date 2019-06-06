@@ -31,5 +31,16 @@ end
 # If there is nobody in line,
 # it should call out (puts) that "There is nobody waiting to be served!"
 
+#now_serving
+#there are no people in line
+#should say that the line is empty (FAILED - 1)
+#there are people in line
+#should serve the first person in line and remove them from the queue (FAILED - 2)
+
 def now_serving
+  if katz_deli.empty?
+    then puts "The line is empty."
+  else
+   katz_deli.shift
+   puts ""
 end
