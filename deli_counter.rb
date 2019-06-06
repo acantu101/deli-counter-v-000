@@ -37,7 +37,7 @@ end
 #there are people in line
 #should serve the first person in line and remove them from the queue (FAILED - 2)
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.empty?
     then puts "The line is empty."
   else
