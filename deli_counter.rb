@@ -45,4 +45,3 @@ def now_serving
    puts ""
 end
 end
-
