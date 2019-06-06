@@ -44,3 +44,5 @@ def now_serving
    katz_deli.shift
    puts ""
 end
+end
+
